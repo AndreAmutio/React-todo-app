@@ -20,13 +20,29 @@ Permite gestionar tareas diarias de una forma simple, visual y funcional.
 
 ## 🛠️ Tecnologías utilizadas
 
-- **React**
+- **React.js**
 - **Bulma (CDN)**
 - **CSS personalizado**
 - **JavaScript (ES6+)**
 - **localStorage**
+- **HTML**
+- **CSS**
+- **Vite**
 
 ---
+## ⚙️ Funcionalidades
+
+- Agregar nuevas tareas con validación de datos.
+- Editar tareas existentes.
+- Marcar tareas como completadas.
+- Eliminar tareas con confirmación visual.
+- Filtrar tareas:
+  - Todas
+  - Completadas
+  - Pendientes
+- Persistencia de datos mediante localStorage : Las tareas se almacenan en el navegador utilizando      **localStorage**. Al recargar la página, la información se mantiene sin pérdida de datos.
+- Interfaz responsive (mobile / desktop)
+- Feedback visual al usuario ante acciones importantes
 
 ## 📂 Estructura del proyecto
 
@@ -52,7 +68,7 @@ El código fuente está organizado dentro de la carpeta `src/`:
 
 ## 🚀 Instalación y uso local
 
-- `git clone https://github.com/tu-usuario/tu-repo.git`
+- `git clone https://github.com/AndreAmutio/React-todo-app.git`
 - `cd todo-list-react`
 - `npm install`
 - `npm run dev` 
@@ -62,11 +78,24 @@ El código fuente está organizado dentro de la carpeta `src/`:
 ## 🖼️ Capturas de pantalla
 
 ### Vista principal
-![Vista principal](./assets/Vista-principal.png)
+![Vista principal](./src/assets/Vista-principal.png)
 
 ### Tareas completadas
-![Tareas completadas](./assets/tareas-completadas.png)
+![Tareas completadas](./src/assets/tareas-completadas.png)
 
 ### Editar tarea
-![Editar tarea](./assets/eliminar-tarea.png)
+![Eliminar tarea](./src/assets/eliminar-tarea.png)
 
+
+## ✨ Mejoras UX implementadas
+
+- Diseño oscuro con contraste visual para mejorar la legibilidad
+- Resaltado visual de tareas completadas
+- Animaciones sutiles al interactuar con las tareas
+- Confirmación visual al eliminar tareas (modal)
+- Inputs con feedback visual y validaciones claras
+- Tipografía moderna y jerarquía visual
+
+## 🌐 Deploy
+
+Aplicación deployada en:  
