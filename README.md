@@ -1,7 +1,7 @@
 # ✅ Todo List App – React + Bulma
 
-Aplicación de lista de tareas desarrollada con **React** y **Bulma**, con un diseño oscuro moderno, llamativo y funcional.  
-Permite gestionar tareas diarias de una forma simple, visual y funcional.
+Aplicación de lista de tareas hecha con **React** y **Bulma**. Permite agregar, completar y eliminar tareas de forma sencilla. Incluye un tema oscuro para una mejor experiencia visual.
+
 ---
 
 ## ✨ Características
