@@ -1,21 +1,18 @@
 import { useEffect, useState } from "react";
 import Form from "./components/Form";
 import TodoList from "./components/TodoList";
-import './index.css';
+import "./index.css";
 
 function App() {
-  const [tareas, setTareas] = useState([]);
+  // Carga inicial desde LS
+  const [tareas, setTareas] = useState(() => {
+    const guardadas = localStorage.getItem("tareas");
+    return guardadas ? JSON.parse(guardadas) : [];
+  });
+
   const [filtro, setFiltro] = useState("todas");
 
-  // Cargar desde localStorage
-  useEffect(() => {
-    const guardadas = JSON.parse(localStorage.getItem("tareas"));
-    if (guardadas) {
-      setTareas(guardadas);
-    }
-  }, []);
-
-  // Guardar en localStorage
+  // Guardar en localStorage cada vez qe cambian
   useEffect(() => {
     localStorage.setItem("tareas", JSON.stringify(tareas));
   }, [tareas]);
@@ -26,14 +23,18 @@ function App() {
         <div
           className="box has-background-dark"
           style={{
-           borderRadius: "100px 100px",
-           padding: "3rem",
-           boxShadow: "0 0px 50px rgba(4, 222, 255, 0.7)",
-           minHeight: "80vh",
+            borderRadius: "100px 100px",
+            padding: "3rem",
+            boxShadow: "0 0px 50px rgba(4, 222, 255, 0.7)",
+            minHeight: "80vh",
           }}
         >
-          <h1 className="title has-text-centered has-text-info-light"> Tareas del día 📋 </h1>
+          <h1 className="title has-text-centered has-text-info-light">
+            Tareas del día 📋
+          </h1>
+
           <Form tareas={tareas} setTareas={setTareas} />
+
           <TodoList
             tareas={tareas}
             setTareas={setTareas}
