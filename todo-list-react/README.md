@@ -59,3 +59,14 @@ El código fuente está organizado dentro de la carpeta `src/`:
 
 **Abrir en el navegador:** `http://localhost:5173 `
 
+## 🖼️ Capturas de pantalla
+
+### Vista principal
+![Vista principal](./assets/Vista-principal.png)
+
+### Tareas completadas
+![Tareas completadas](./assets/tareas-completadas.png)
+
+### Editar tarea
+![Editar tarea](./assets/eliminar-tarea.png)
+
