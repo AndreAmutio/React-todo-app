@@ -30,7 +30,7 @@ function App() {
           }}
         >
           <h1 className="title has-text-centered has-text-info-light">
-            Tareas del día 📋
+           📝 Tareas del día
           </h1>
 
           <Form tareas={tareas} setTareas={setTareas} />
