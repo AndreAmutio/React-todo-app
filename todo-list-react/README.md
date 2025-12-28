@@ -2,7 +2,6 @@
 
 Aplicación de lista de tareas desarrollada con **React** y **Bulma**, con un diseño oscuro moderno, llamativo y funcional.  
 Permite gestionar tareas diarias de una forma simple, visual y funcional.
-
 ---
 
 ## ✨ Características
@@ -44,6 +43,8 @@ Permite gestionar tareas diarias de una forma simple, visual y funcional.
 - Interfaz responsive (mobile / desktop)
 - Feedback visual al usuario ante acciones importantes
 
+---
+
 ## 📂 Estructura del proyecto
 
 El código fuente está organizado dentro de la carpeta `src/`:
@@ -75,6 +76,8 @@ El código fuente está organizado dentro de la carpeta `src/`:
 
 **Abrir en el navegador:** `http://localhost:5173 `
 
+---
+
 ## 🖼️ Capturas de pantalla
 
 ### Vista principal
@@ -86,6 +89,7 @@ El código fuente está organizado dentro de la carpeta `src/`:
 ### Editar tarea
 ![Eliminar tarea](./src/assets/eliminar-tarea.png)
 
+---
 
 ## ✨ Mejoras UX implementadas
 
@@ -95,6 +99,8 @@ El código fuente está organizado dentro de la carpeta `src/`:
 - Confirmación visual al eliminar tareas (modal)
 - Inputs con feedback visual y validaciones claras
 - Tipografía moderna y jerarquía visual
+
+---
 
 ## 🌐 Deploy
 
