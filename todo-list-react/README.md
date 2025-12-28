@@ -1,16 +1,61 @@
-# React + Vite
+# ✅ Todo List App – React + Bulma
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Aplicación de lista de tareas desarrollada con **React** y **Bulma**, con un diseño oscuro moderno, llamativo y funcional.  
+Permite gestionar tareas diarias de una forma simple, visual y funcional.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Características
 
-## React Compiler
+- ➕ Agregar tareas
+- ✏️ Editar tareas existentes
+- ✅ Marcar tareas como completadas
+- 🗑️ Eliminar tareas
+- 🔍 Filtrar tareas (todas / pendientes / completadas)
+- 💾 Persistencia con **localStorage**
+- 🌙 Diseño oscuro con bordes de color
+- 📱 Responsive (desktop y mobile)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🛠️ Tecnologías utilizadas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React**
+- **Bulma (CDN)**
+- **CSS personalizado**
+- **JavaScript (ES6+)**
+- **localStorage**
+
+---
+
+## 📂 Estructura del proyecto
+
+El código fuente está organizado dentro de la carpeta `src/`:
+
+- **components/**  
+  Contiene los componentes reutilizables de la aplicación:  
+  - `Form.jsx`: formulario para agregar nuevas tareas.  
+  - `Todo.jsx`: representa una tarea individual.  
+  - `TodoList.jsx`: muestra la lista completa de tareas.  
+  - `ConfirmModal.jsx`: modal de confirmación para acción de eliminado de tareas.
+
+- **App.jsx**  
+  Componente principal que integra y coordina todos los demás.
+
+- **main.jsx**  
+  Punto de entrada de la aplicación, donde se inicializa React y se renderiza `App`.
+
+- **index.css**  
+  Archivo de estilos globales que aplica diseño a toda la aplicación.
+
+---
+
+## 🚀 Instalación y uso local
+
+- `git clone https://github.com/tu-usuario/tu-repo.git`
+- `cd todo-list-react`
+- `npm install`
+- `npm run dev` 
+
+**Abrir en el navegador:** `http://localhost:5173 `
+
