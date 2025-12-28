@@ -81,13 +81,13 @@ El código fuente está organizado dentro de la carpeta `src/`:
 ## 🖼️ Capturas de pantalla
 
 ### Vista principal
-![Vista principal](./src/assets/Vista-principal.png)
+![Vista principal](./todo-list-react/src/assets/Vista-principal.png)
 
 ### Tareas completadas
-![Tareas completadas](./src/assets/tareas-completadas.png)
+![Tareas completadas](./todo-list-react/src/assets/tareas-completadas.png)
 
 ### Editar tarea
-![Eliminar tarea](./src/assets/eliminar-tarea.png)
+![Eliminar tarea](./todo-list-react/src/assets/eliminar-tarea.png)
 
 ---
 
