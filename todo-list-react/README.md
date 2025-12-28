@@ -69,12 +69,12 @@ El código fuente está organizado dentro de la carpeta `src/`:
 
 ## 🚀 Instalación y uso local
 
-- `git clone https://github.com/AndreAmutio/React-todo-app.git`
+- `git clone https:` https://github.com/AndreAmutio/React-todo-app
 - `cd todo-list-react`
 - `npm install`
 - `npm run dev` 
 
-**Abrir en el navegador:** `http://localhost:5173 `
+**Abrir en el navegador:** http://localhost:5173 
 
 ---
 
@@ -104,4 +104,4 @@ El código fuente está organizado dentro de la carpeta `src/`:
 
 ## 🌐 Deploy
 
-Aplicación deployada en:  `https://react-final-app-two.vercel.app/`
+Aplicación deployada en:  https://react-final-app-two.vercel.app/
