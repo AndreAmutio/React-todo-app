@@ -104,4 +104,4 @@ El código fuente está organizado dentro de la carpeta `src/`:
 
 ## 🌐 Deploy
 
-Aplicación deployada en:  
+Aplicación deployada en:  `https://react-final-app-two.vercel.app/`
