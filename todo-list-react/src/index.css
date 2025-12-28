@@ -1,0 +1,116 @@
+/* RESET / ALTURA COMPLETA */
+html,
+body {
+  min-height: 100vh;
+  background-color: #0f0f0f;
+}
+
+/* BASE */
+body {
+  color: #eaeaea;
+  font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* CONTENEDOR */
+.container {
+  margin-top: 3rem;
+  max-width: 720px;
+}
+
+/* BOX */
+.box {
+  background-color: #1a1a1a;
+  border-radius: 12px;
+  border: 1px solid #2a2a2a;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+/* INPUTS */
+.input,
+.select select {
+  background-color: #262626;
+  color: #ffffff;
+  border: none;
+}
+
+.input::placeholder {
+  color: #888;
+}
+
+.input:focus,
+.select select:focus {
+  border: 1px solid #00d1b2;
+  box-shadow: 0 0 0 0.125em rgba(0, 209, 178, 0.25);
+}
+
+/* BOTONES */
+.button.is-primary {
+  background: linear-gradient(135deg, #00d1b2, #00b89c);
+  border: none;
+  font-weight: 600;
+}
+
+.button.is-danger {
+  background: linear-gradient(135deg, #ff3860, #ff1443);
+  border: none;
+}
+
+.button.is-info {
+  background: linear-gradient(135deg, #3273dc, #2759a5);
+  border: none;
+}
+
+.button.is-success {
+  background: linear-gradient(135deg, #23d160, #1fa44a);
+  border: none;
+}
+
+/* LISTA */
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  border-radius: 10px;
+  background-color: #181818;
+  margin-bottom: 0.75rem;
+  transition: transform 0.15s ease, background-color 0.15s ease;
+}
+
+.todo-item:hover {
+  background-color: #202020;
+  transform: translateY(-2px);
+}
+
+/* COMPLETADA */
+.todo-item.completada {
+  opacity: 0.6;
+}
+
+.todo-item.completada p {
+  text-decoration: line-through;
+  color: #9ca3af;
+}
+
+/* TEXTO */
+.todo-text {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+/* BOTONES ICONO */
+.todo-actions .button {
+  margin-left: 0.3rem;
+}
+
+/* RESPONSIVE  */
+@media (max-width: 480px) {
+  .todo-item {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .todo-actions {
+    margin-top: 0.5rem;
+  }
+}
